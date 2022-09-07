@@ -1,0 +1,151 @@
+/* ##################### TAG STYLES ######################### */
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  margin: 40px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 8rem;
+  z-index: -10;
+  color: #66BFBF;
+  line-height: 1;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+  padding: 0;
+}
+a {
+  color: #11999E;
+}
+a:hover {
+  color: white;
+}
+hr {
+  width: 20%;
+  border-style: dotted;
+  border-bottom: none;
+  border-width: 5px;
+  border-color: #EAF6F6;
+}
+p {
+  line-height: 2;
+}
+/* ##################### CLASS STYLES ######################### */
+.top-container {
+  background-color: #EAF6F6;
+  position: relative;
+  padding-top: 100px;
+  z-index: 10;
+}
+.bottom-container {
+  background-color: #66BFBF;
+  margin: 0;
+  padding: 40px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+  width: 300px;
+  z-index: -9;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+  width: 400px;
+}
+
+.mountain-img {
+  position: relative;
+  width: 900px;
+}
+
+.profilepic {
+  width: 230px;
+}
+
+.profile {
+  margin: 150px 100px;
+}
+.web-dev {
+  margin: auto 20%;
+}
+.proitalic {
+  text-decoration: underline;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+}
+
+.code-img {
+  width: 30%;
+  float: left;
+  margin-right: 30px;
+}
+.brucelee {
+  width: 30%;
+  float: right;
+  margin-left: 30px;
+}
+.footer-link {
+  padding: 30px;
+}
+.namebottom {
+  padding-top: 20px;
+  font-size: 0.7rem;
+}
+.btn {
+  background: #11999E;
+  background-image: -webkit-linear-gradient(top, #11999E, #0f8185);
+  background-image: -moz-linear-gradient(top, #11999E, #0f8185);
+  background-image: -ms-linear-gradient(top, #11999E, #0f8185);
+  background-image: -o-linear-gradient(top, #11999E, #0f8185);
+  background-image: linear-gradient(to bottom, #11999E, #0f8185);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #0ac6cc;
+  background-image: -webkit-linear-gradient(top, #0ac6cc, #2ae5eb);
+  background-image: -moz-linear-gradient(top, #0ac6cc, #2ae5eb);
+  background-image: -ms-linear-gradient(top, #0ac6cc, #2ae5eb);
+  background-image: -o-linear-gradient(top, #0ac6cc, #2ae5eb);
+  background-image: linear-gradient(to bottom, #0ac6cc, #2ae5eb);
+  text-decoration: none;
+}
+.contact-me {
+  margin: 30px;
+  padding: 30px;
+}
+.chitchat {
+  padding: 30px;
+  font-weight: bold;
+}
+.skills {
+  margin: 150px auto;
+}
